@@ -1,12 +1,12 @@
-baseURL = "https://venerable-travesseiro-d21254.netlify.app/"
+baseURL = "https://cloudbyvince.netlify.app/"
 languageCode = "en-us"
-title = "Vinc | IT-Blog"
+title = "Vince | IT-Blog"
 theme = "PaperMod"
 
 [params]
     env = "production"
-    title = "Test-Blog"
-    description = "Gedanken zu Cloud, Code und IT-Infrastruktur"
+    title = "IT Blog"
+    description = "Personal learnings about the cloud, coding and IT-infrastructure."
     author = "Vincent Wittlin"
     
     # Ermöglicht das Umschalten zwischen Dark- und Light-Mode
@@ -18,8 +18,8 @@ theme = "PaperMod"
     ShowCodeCopyButtons = true # Essential für IT-Blogs!
 
     [params.homeInfoParams]
-        Title = "Hallo! Ich bin Vinc 👋"
-        Content = "Willkommen auf meinem Blog. Hier dokumentiere ich meine Reise durch die IT-Welt."
+        Title = "Hi! 👋 My name is Vince and I'm glad you found my blog!"
+        Content = "This blog is where I document all my learnings about IT - Whether it's from work or my studies."
 
     [[params.socialIcons]]
         name = "github"
@@ -31,7 +31,7 @@ theme = "PaperMod"
 [menu]
     [[menu.main]]
         identifier = "posts"
-        name = "Beiträge"
+        name = "Posts"
         url = "/posts/"
         weight = 10
     [[menu.main]]
