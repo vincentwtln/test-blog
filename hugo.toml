@@ -6,7 +6,7 @@ theme = "PaperMod"
 [params]
     env = "production"
     title = "IT Blog"
-    description = "Personal learnings about the cloud, coding and IT-infrastructure."
+    # description = "Personal learnings about the cloud, coding and IT-infrastructure."
     author = "Vincent Wittlin"
     
     # Ermöglicht das Umschalten zwischen Dark- und Light-Mode
@@ -18,8 +18,8 @@ theme = "PaperMod"
     ShowCodeCopyButtons = true # Essential für IT-Blogs!
 
     [params.homeInfoParams]
-        Title = "Hi! 👋 My name is Vince and I'm glad you found my blog!"
-        Content = "This blog is where I document all my learnings about IT - Whether it's from work or my studies."
+        Title = "Hi! 👋 My name is Vince - glad you're here!"
+        Content = "This blog is where I document all my learnings about IT - whether it's from work experience or my studies."
 
     [[params.socialIcons]]
         name = "github"
