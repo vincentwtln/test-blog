@@ -1,4 +1,41 @@
-baseURL = 'https://venerable-travesseiro-d21254.netlify.app/'
-languageCode = 'en-us'
-title = 'Test Blog by Vinc'
+baseURL = "https://deine-seite.netlify.app/"
+languageCode = "en-us"
+title = "Vinc | IT-Blog"
 theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "Test-Blog"
+    description = "Gedanken zu Cloud, Code und IT-Infrastruktur"
+    author = "Vincent Wittlin"
+    
+    # Ermöglicht das Umschalten zwischen Dark- und Light-Mode
+    defaultTheme = "auto" 
+    
+    # Zeigt Lesezeit und Wortzahl an
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowCodeCopyButtons = true # Essential für IT-Blogs!
+
+    [params.homeInfoParams]
+        Title = "Hallo! Ich bin Vinc 👋"
+        Content = "Willkommen auf meinem Blog. Hier dokumentiere ich meine Reise durch die IT-Welt."
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/vincentwtln"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/vincent-wittlin-727905265/"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Beiträge"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 20
