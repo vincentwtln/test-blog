@@ -1,11 +1,11 @@
 baseURL = "https://cloudbyvince.netlify.app/"
 languageCode = "en-us"
-title = "Vince | IT-Blog"
+title = "Cloud by Vince | Blog"
 theme = "PaperMod"
 
 [params]
     env = "production"
-    title = "IT Blog"
+    title = "Cloud by Vince"
     # description = "Personal learnings about the cloud, coding and IT-infrastructure."
     author = "Vincent Wittlin"
     
