@@ -1,9 +1,9 @@
 +++
-date: 2026-02-06
-tags: ["intune", "app-control"]
-categories: ["Tutorial"]
-summary: "Ein kurzer Teaser, der auf der Startseite erscheint."
-showToc: true
+date = 2026-02-06
+tags = ["intune", "app-control"]
+categories = ["Tutorial"]
+summary = "Ein kurzer Teaser, der auf der Startseite erscheint."
+showToc = true
 draft = false
 title = 'Implementing App Control for Business in a complex enterprise'
 +++
